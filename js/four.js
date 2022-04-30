@@ -42,14 +42,14 @@ function firework(){
 
 
 const imageImgFly = [
-    '/img/ball1.png',
-    '/img/rope1.png',
-    '/img/rope2.png',
-    '/img/rope3.png',
-    '/img/rope4.png',
-    '/img/star1.png',
-    '/img/star2.png',
-    '/img/star3.png'
+    'img/ball1.png',
+    'img/rope1.png',
+    'img/rope2.png',
+    'img/rope3.png',
+    'img/rope4.png',
+    'img/star1.png',
+    'img/star2.png',
+    'img/star3.png'
 ]
 
 

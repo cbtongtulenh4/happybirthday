@@ -4,7 +4,7 @@ function createImg(totalImg, location, nameClass){
     const container = document.getElementById(location);
     for(i = 1; i < totalImg + 1; i++){
         const img = document.createElement('img');
-        img.src = "/img/cake/"+ i +".png";
+        img.src = "img/cake/"+ i +".png";
         img.className= nameClass + " none";
         container.appendChild(img);
     } 

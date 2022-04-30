@@ -1,16 +1,16 @@
 @font-face {
     font-family: Clip;
-    src: url("/fonts/Clip.ttf");
+    src: url(../fonts/clip.ttf);
 }
 
 @font-face {
   font-family: ArchivoBlack;
-  src: url("/fonts/ArchivoBlack-Regular.ttf");
+  src: url(../fonts/archivo-black-regular.ttf);
 }
 
 
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
 
 html{
@@ -327,7 +327,7 @@ a span:nth-child(4){
     position: relative;
     width: 2vw;
     height: 2vw;
-    background: url(/img/cake2b.png);
+    background: url(../img/cake2b.png);
     background-size: cover;
     background-attachment: fixed;
     object-fit: cover;
@@ -391,7 +391,7 @@ a span:nth-child(4){
   height: 270px;
 
   
-  background: url(/img/4.jpg);/*/img/question_mark.jpg*/
+  background: url(../img/4.jpg);/*../img/question_mark.jpg*/
     background-size: cover;
     background-position: center;
     
@@ -420,7 +420,7 @@ a span:nth-child(4){
     position: relative;
     width: 20px;
     height: 20px;
-    background: url(/img/4.jpg);/*/img/question_mark.jpg*/
+    background: url(../img/4.jpg);/*../img/question_mark.jpg*/
     background-size: cover;
     background-position: center; 
     background-attachment: fixed;
@@ -1035,7 +1035,7 @@ a span:nth-child(4){
 .img-cake .box-cake{
   width: 230px;
   height: 330px;
-  background: url("/img/birthdayNew.png");
+  background: url(../img/birthday-new.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
