@@ -17,7 +17,7 @@ function createBlock(image){
 let block1 = image1.getElementsByTagName('div');
 
 image1.addEventListener('click', async function(){
-    if(block1[0].style.backgroundImage.slice(4, -1).replace(/"/g, "") == "img/4.jpg") return;
+    if(block1[0].style.backgroundImage.slice(4, -1).replace(/"/g, "") == "img/5.jpg") return;
     let animation = anime.timeline
     ({
         targets: block1,
@@ -38,7 +38,7 @@ image1.addEventListener('click', async function(){
     await sleep(5000);
     for (var i = 0; i<=285; i++)
     {
-        block1[i].style.background = "url(img/4.jpg)";
+        block1[i].style.background = "url(img/5.jpg)";
         block1[i].style.backgroundAttachment = "fixed";
         block1[i].style.backgroundPosition = "center";
         block1[i].style.backgroundSize = "cover";
