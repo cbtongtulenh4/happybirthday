@@ -10,6 +10,14 @@ const images = [
      'img/10.jpg',
      'img/11.jpg',
      'img/12.jpg',
+     'img/13.jpg',
+     'img/14.jpg',
+     'img/15.jpg',
+     'img/16.jpg',
+     'img/17.jpg',
+     'img/18.jpg',
+     'img/19.jpg',
+     'img/20.jpg'
 ]
 
 function createSquareImg(){

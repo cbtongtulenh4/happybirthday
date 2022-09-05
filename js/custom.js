@@ -63,7 +63,7 @@ goButton3.addEventListener('click', async function(){
   setInterval(createImgFly, 500);// 200
 
   // createSquareImg();
-  setInterval(createSquareImg, 2500);
+  setInterval(createSquareImg, 1000);
 
   section3.style.animation = "CenterToRight 3s forwards";
   section4.style.animation = "LeftToCenter 3s forwards";
