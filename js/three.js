@@ -50,7 +50,7 @@ function createSquare(){
 //     }
 // });
 
-function test(){
+async function test(){
     var input = checkPass.value;
     if(input.toLowerCase() === "phuc"){
         document.getElementById('pass').style.display = "none";

@@ -35,5 +35,4 @@ function goIn(){
         duration: 5000,
         delay: anime.stagger(20)
     })
-    
 }
